@@ -11,7 +11,7 @@ vector<int> F;
 
 
 int  fill() {
-    cout << "Enter the number of tasks : ";
+    cout << "Enter the tasks number : ";
     cin >> n;
     p.resize(n, vector<int>(2));
     F.resize(n);
